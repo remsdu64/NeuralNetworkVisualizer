@@ -1,0 +1,23 @@
+
+
+#drag-1, #drag-2 {
+  width: 10%;
+  height: 100%;
+  min-height: 6.5em;
+  margin: 1%;
+
+  background-color: #29e;
+  color: white;
+
+  border-radius: 100%;
+  padding: 4%;
+
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+#drag-me::before {
+  content: "#" attr(id);
+  font-weight: bold;
+}
+
